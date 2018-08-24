@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="华金基业"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+
+        android:id="@+id/btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="#bebebe"
+            android:focusableInTouchMode="true"
+            android:text="叫号系统" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="#bebebe"
+            android:focusableInTouchMode="true"
+            android:text="其他系统"
+            app:layout_constraintLeft_toRightOf="@+id/btn1" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="#bebebe"
+            android:focusableInTouchMode="true"
+            android:text="刷新刷新"
+            app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="#bebebe"
+            android:focusableInTouchMode="true"
+            android:text="视频视频"
+            app:layout_constraintLeft_toRightOf="@+id/btn2" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
